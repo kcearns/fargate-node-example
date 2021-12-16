@@ -1,0 +1,9 @@
+<h1 class="text-center mb-3">{{title}}</h1>
+<h4>To Do List App:</h4>
+<ul class="list-group">
+  {{#each todos}}
+  <li class="list-group-item">{{this.todo}}</li>
+  {{/each}}
+</ul>
+
+<a href="/api/todos" class="btn btn-light mt-4">Visit API</a>
