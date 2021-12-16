@@ -27,4 +27,6 @@ Navigate to the CloudFormation AWS console and delete the two stacks created by 
 
 The other will be follow the format outlined in the pipeline.yml file: [stage]-[accountId]-FargateECSCluster'
 
+Alternatively, you can run the `aws cloudformation delete-stack --stack-name [STACK NAME]` command.
+
 
