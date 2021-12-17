@@ -34,6 +34,11 @@ const todos = [
     todo: 'write blog post on how to use cloudformation and fargate',
     completed: false
   },
+  {
+    id: 8,
+    todo: 'add aws copilot example',
+    completed: false
+  },
 
 ]
 
